@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+body {
+  font-family: "Lato", sans-serif;
+  background: rgb(92, 161, 151);
+  background: linear-gradient(
+    170deg,
+    rgba(92, 161, 151, 1) 34%,
+    rgba(0, 168, 255, 1) 100%
+  );
+  background-repeat: no-repeat;
+}
+.container {
+  width: 800px;
+  height: 800px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  background: rgb(92, 140, 161);
+  background: linear-gradient(
+    170deg,
+    rgb(92, 139, 161) 34%,
+    rgb(21, 123, 239) 100%
+  );
+}
+.PressToPlay {
+  border-radius: 10px;
+  border-color: azure;
+  width: 30%;
+  height: 80px;
+  font-size: 2em;
+  font-weight: bold;
+  background-color: rgb(128, 197, 197);
+  color: white;
+  margin: 10px;
+}
+#sez {
+  height: 1000px;
+}
+.new {
+  display: inline-block;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: aqua;
+  border-radius: 50%;
+  margin: 3px;
+  text-align: center;
+}
+.new2 {
+  display: inline-block;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(212, 80, 216);
+  border-radius: 50%;
+  margin: 3px;
+  text-align: center;
+}
